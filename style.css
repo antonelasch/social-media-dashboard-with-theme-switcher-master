@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  border: 0px;
+  margin: 0px;
+  background: rgb(253, 253, 255);
+  background: linear-gradient(180deg, rgb(253, 253, 255) 43%, rgb(255, 255, 255) 43%);
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+#botao {
+  margin-top: 0px;
+  margin-left: 1449px;
+  position: absolute;
+}
+
+#botao:checked ~ #container {
+  background: rgb(26, 28, 43);
+  background: linear-gradient(180deg, rgb(26, 28, 43) 43%, rgb(30, 32, 42) 43%);
+}
+#botao:checked ~ #container h1 {
+  color: hsl(0, 0%, 100%);
+}
+#botao:checked ~ #container .se {
+  background-color: hsl(228, 28%, 20%);
+}
+#botao:checked ~ #container .s {
+  background-color: hsl(228, 28%, 20%);
+}
+
+.tudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.tudo p {
+  color: hsl(228, 12%, 44%);
+}
+.tudo h1 {
+  color: black;
+}
+
+p {
+  color: hsl(228, 12%, 44%);
+}
+
+p1 {
+  color: #35ab8b;
+}
+
+.se {
+  background-color: hsl(227, 47%, 96%);
+  height: 240px;
+  width: 240px;
+  border-radius: 10px;
+}
+
+.se1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.se2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seg2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.seg2 p1 {
+  color: hsl(356, 69%, 56%);
+}
+
+#escrita {
+  color: hsl(228, 12%, 44%);
+  margin-left: 110px;
+}
+
+.s {
+  height: 130px;
+  width: 250px;
+  background-color: hsl(227, 47%, 96%);
+  border-radius: 10px;
+}
+
+.s1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.s2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.s2 p1 {
+  color: hsl(228, 12%, 44%);
+}
+
+#fa2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+#fa2 p1 {
+  color: hsl(356, 69%, 56%);
+}
+
+.tudo2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.tudo3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+#borda {
+  height: 5px;
+  width: 240px;
+  background-color: hsl(208, 92%, 53%);
+  border-radius: 10px;
+}
+
+#borda2 {
+  height: 5px;
+  width: 240px;
+  background-color: hsl(203, 89%, 53%);
+  border-radius: 10px;
+}
+
+#borda3 {
+  height: 5px;
+  width: 240px;
+  background: #833ab4;
+  background: linear-gradient(to left, #833ab4, #fd1d1d, #fcb045);
+  border-radius: 10px;
+}
+
+#borda4 {
+  height: 5px;
+  width: 240px;
+  background-color: hsl(348, 97%, 39%);
+  border-radius: 10px;
+}
+
+.seg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.fl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.fl p1 {
+  color: #35ab8b;
+}
+
+.fl2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #35ab8b;
+}
+
+#escb {
+  margin-left: 1360px;
+}
+
+#tit {
+  margin-top: -40px;
+  padding-top: -40px;
+  margin-left: 110px;
+}/*# sourceMappingURL=style.css.map */
