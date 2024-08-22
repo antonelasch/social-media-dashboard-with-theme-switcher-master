@@ -29,6 +29,14 @@ body {
 #botao:checked ~ #container .s {
   background-color: hsl(228, 28%, 20%);
 }
+#botao:checked ~ #container .se:hover {
+  background-color: hsl(228, 38%, 16%);
+  transform: scale(1.1);
+}
+#botao:checked ~ #container .s:hover {
+  background-color: hsl(228, 38%, 16%);
+  transform: scale(1.1);
+}
 
 .tudo {
   display: flex;
@@ -197,4 +205,14 @@ p1 {
   margin-top: -40px;
   padding-top: -40px;
   margin-left: 110px;
+}
+
+.se:hover {
+  background-color: hsl(228, 24%, 84%);
+  transform: scale(1.1);
+}
+
+.s:hover {
+  background-color: hsl(228, 24%, 84%);
+  transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */

@@ -6,6 +6,8 @@ $l-color-number: black;
 $color-followers: #35ab8b;
 $color-subs-you: hsl(356, 69%, 56%);
 $d-background: #1e202a;
+$l-color-mouse:  hsl(228, 24%, 84%);
+$d-color-mouse: hsl(228, 38%, 16%);
 
 body{
     border: 0px;
@@ -36,6 +38,14 @@ body{
     }
     & .s {
         background-color: hsl(228, 28%, 20%);
+    }
+    & .se:hover {
+        background-color: $d-color-mouse;
+        transform: scale(1.1);
+    }
+    & .s:hover {
+        background-color: $d-color-mouse;
+        transform: scale(1.1);
     }
 }
  
@@ -214,4 +224,14 @@ p1 {
     margin-top: -40px;
     padding-top: -40px;
     margin-left: 110px
+}
+
+.se:hover {
+    background-color: $l-color-mouse;
+    transform: scale(1.1);
+}
+
+.s:hover {
+    background-color: $l-color-mouse;
+    transform: scale(1.1);
 }
